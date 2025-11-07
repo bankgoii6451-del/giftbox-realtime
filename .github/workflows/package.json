@@ -1,0 +1,20 @@
+{
+  "name": "giftbox-realtime",
+  "version": "1.0.0",
+  "description": "GiftBox ระบบสุ่มรางวัลแบบเรียลไทม์ (Node.js)",
+  "main": "giftbox_realtime.js",
+  "scripts": {
+    "start": "node giftbox_realtime.js",
+    "build": "echo 'no build step needed'",
+    "test": "echo 'no tests, skipping' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
+    "crypto-js": "^4.2.0",
+    "ws": "^8.17.0"
+  },
+  "engines": {
+    "node": "18.x || 20.x || 22.x"
+  }
+}
